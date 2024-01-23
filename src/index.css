@@ -1,3 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-[#52bda90f] font-inter text-appBlack;
+}
+
+.logo {
+  @apply text-appGreen font-semibold lg:text-3xl md:text-2xl text-xl;
+}
+
+.nav__List {
+  @apply text-base sm:text-sm transition-all duration-300 cursor-pointer text-appGray;
+}
+
+.nav__button {
+  @apply bg-appGreen max-w-[5rem] p-2 rounded-[0.525rem] text-white font-medium lg:text-base text-sm;
+}
+
+.navLite__button {
+  @apply bg-transparent max-w-[5rem] text-appGray font-medium lg:text-base text-sm;
+}
+
+.hero__text {
+  @apply md:max-w-[34rem] font-bold lg:text-6xl text-5xl pb-8;
+}
+
+.hero__ptext {
+  @apply max-w-[28rem] lg:text-base text-sm pt-8;
+}
+
+.hero__btn {
+  @apply bg-appGreen text-white px-6 py-3 rounded-full lg:text-base text-sm;
+}
+
+.hero__btnLite {
+  @apply bg-transparent flex items-center gap-3 lg:text-base text-sm;
+}
+
+.brand__logos {
+  @apply lg:max-w-[7rem]  max-w-[6rem];
+}
+
+.support__sectionContainer {
+  @apply bg-appLightGray mx-auto md:px-[3.4rem] px-5 md:flex md:flex-row flex-col justify-between gap-y-8 lg:py-16;
+}
+
+.support__text {
+  @apply max-w-[30rem] lg:text-4xl md:text-3xl text-2xl font-semibold;
+}
+
+.box__Icon {
+  @apply flex justify-center items-center bg-white md:h-14 h-12  py-3 px-4 shadow-md rounded-md;
+}
+
+.support__icon {
+  @apply text-appGreen md:text-2xl text-lg;
+}
+
+.support__starIcon {
+  @apply text-[#FFC728] sm:text-xl text-lg;
+}
+
+.feature__text {
+  @apply sm:max-w-[18rem] w-full lg:text-4xl md:text-3xl text-2xl font-semibold;
+}
