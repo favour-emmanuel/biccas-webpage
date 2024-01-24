@@ -113,10 +113,12 @@ const Plan = () => {
           </div>
         </div>
         {/* green box group */}
-        <div className="max-w-[23rem] bg-appGreen px-5 py-3 rounded-xl">
+        <div className="max-w-[23rem] bg-appGreen px-5 py-5 rounded-xl">
           <div className="text-center text-white">
             <h1 className="text-3xl font-semibold pt-5">Free</h1>
-            <p className="text-sm pt-2">Have a go and test your superpowers</p>
+            <p className="text-sm pt-3">
+              Experiment the power of infinite possibilities
+            </p>
             <h3 className="text-2xl font-semibold pt-3">
               <sup className=" text-sm">$</sup> 8
             </h3>
@@ -126,7 +128,7 @@ const Plan = () => {
               </button>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center mt-4">
             <div className="max-w-[20rem] py-5 px-5 bg-white my-3 rounded-md">
               {proUser.map(({ text }) => (
                 <div className="flex items-center gap-5 py-3">
@@ -134,8 +136,8 @@ const Plan = () => {
                   <p className="sm:text-[0.938rem] text-sm">{text}</p>
                 </div>
               ))}
-              <div className="flex justify-center items-center">
-                <button className=" bg-appGreen border-none text-white py-2 rounded-lg box__shadow px-10 mb-3">
+              <div className="flex justify-center items-center mb-3">
+                <button className=" bg-appGreen border-none text-white py-2 rounded-lg box__shadow px-10">
                   Go to pro
                 </button>
               </div>
@@ -145,9 +147,9 @@ const Plan = () => {
         {/* white */}
         <div className="max-w-[23rem] bg-white px-5 py-3 rounded-xl">
           <div className="text-center">
-            <h1 className="text-3xl font-semibold pt-5">Free</h1>
+            <h1 className="text-3xl font-semibold pt-5">Business</h1>
             <p className="text-appGray text-base">
-              Have a go and test your superpowers
+              Unveil new superpowers and join the Design Leaque
             </p>
             <h3 className="text-2xl text-appBlack font-semibold pt-3">
               <sup className="text-appGray text-sm">$</sup> 0
