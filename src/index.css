@@ -67,3 +67,7 @@ body {
 .feature__text {
   @apply sm:max-w-[18rem] w-full lg:text-4xl md:text-3xl text-2xl font-semibold;
 }
+
+.box__shadow {
+  box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.039);
+}

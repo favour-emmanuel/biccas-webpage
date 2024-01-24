@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         appGreen: "#54BD95",
+        appLightGreen: "#85DAB9",
         appGray: "#A6A6A6",
         appBlack: "#191A15",
         appLightGray: "#F9F8FE",

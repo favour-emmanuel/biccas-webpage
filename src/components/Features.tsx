@@ -34,8 +34,8 @@ const featuresData: featuresImageData[] = [
 
 const Features = () => {
   return (
-    <div className="max-w-[72rem] mx-auto  py-8 lg:px-0 px-5">
-      <div className="flex flex-col md:flex-row md:justify-between md:items-center py-8">
+    <div className="max-w-[72rem] mx-auto  md:py-12 py-8 lg:px-0 px-5">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center py-10">
         <h1 className="feature__text">Our Features you cab get</h1>
         <p className="text-appGray max-w-[28rem] pt-3 pb-6 sm:text-base text-sm">
           We offer a variety of interesting features that you can help increase
