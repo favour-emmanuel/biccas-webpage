@@ -1,6 +1,7 @@
 import collabTeams from "../assets/collabTeams.svg";
 import cloudStorage from "../assets/cloudStorage.svg";
 import dailyAnalytics from "../assets/dailyAnalytics.svg";
+import { Fragment } from "react";
 
 interface featuresImageData {
   imageUrl: string;
@@ -43,22 +44,24 @@ const Features = () => {
         </p>
         <button className="hero__btn max-w-[10rem]">Get Started</button>
       </div>
-      <div className="flex justify-between md:flex-row flex-col">
-        {featuresData.map(({ imageUrl, imageAlt, headingText, subText }) => (
-          <>
-            <div>
-              <img src={imageUrl} alt={imageAlt} className="max-w-[18rem]" />
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+        {featuresData.map(
+          ({ imageUrl, imageAlt, headingText, subText }, index) => (
+            <Fragment key={index}>
               <div>
-                <h4 className="text-appBlack font-semibold sm:text-xl text-lg pt-7">
-                  {headingText}
-                </h4>
-                <p className="text-appGray font-normal sm:text-base text-sm max-w-[21rem] pt-4">
-                  {subText}
-                </p>
+                <img src={imageUrl} alt={imageAlt} className="max-w-[18rem]" />
+                <div>
+                  <h4 className="text-appBlack font-semibold sm:text-xl text-lg pt-7">
+                    {headingText}
+                  </h4>
+                  <p className="text-appGray font-normal sm:text-base text-sm max-w-[21rem] pt-4">
+                    {subText}
+                  </p>
+                </div>
               </div>
-            </div>
-          </>
-        ))}
+            </Fragment>
+          )
+        )}
       </div>
     </div>
   );

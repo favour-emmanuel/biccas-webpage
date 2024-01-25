@@ -65,7 +65,7 @@ const businessUser: planSectionData[] = [
 
 const Plan = () => {
   return (
-    <div className="max-w-[72rem] mx-auto py-8 lg:px-0 px-5">
+    <div className="max-w-[72rem] mx-auto pt-8 mb-28 lg:px-0 px-5">
       <div className="flex justify-center">
         <div className="text-center">
           <h1 className="text-center lg:text-4xl md:text-3xl text-2xl font-semibold max-w-[28rem]">

@@ -12,6 +12,8 @@ export default {
         appGray: "#A6A6A6",
         appBlack: "#191A15",
         appLightGray: "#F9F8FE",
+        appNavyBlue: "#161C28",
+        appNavyLight: "#222938",
       },
     },
   },

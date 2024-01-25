@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 const Support = () => {
   return (
-    <div className="support__sectionContainer">
+    <div className="support__sectionContainer max-w-[78rem]">
       <div>
         <h1 className="support__text">
           How we support our partner all over the world
